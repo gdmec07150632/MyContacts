@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(this,"已成功导入'"+users[selectItem].getName()+"'到手机通讯录",
                             Toast.LENGTH_SHORT).show();
                 }else{
-                    Toast.makeText(this,"没有选择联系人记录,无法导入到手机通讯录",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this,"没有所选的联系人记录,无法导入到手机通讯录",Toast.LENGTH_SHORT).show();
                 }
                 break;
             case 7:     //退出
